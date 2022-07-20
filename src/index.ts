@@ -4,8 +4,6 @@ import { MatchResults } from './MatchResults';
 const reader = new CsvFileReader('football.csv');
 reader.read();
 
-console.log(reader.data);
-
 let arsenalWins = 0;
 
 for (const match of reader.data) {
