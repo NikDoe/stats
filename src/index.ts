@@ -2,7 +2,6 @@ import { MatchResults } from './MatchResults';
 import { MatchReader } from './MatchReader';
 
 const reader = new MatchReader('football.csv');
-reader.read();
 
 let arsenalWins = 0;
 
